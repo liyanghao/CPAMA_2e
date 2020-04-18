@@ -42,3 +42,10 @@ n is b
 
 ### 习题7
 答：17 17
+
+### 习题18
+```
+teenager = age > 19 ? false : (age > 13 ? true : false);
+//
+teenager = (age >=13 && age <= 19) ? true:false;
+```
