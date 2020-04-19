@@ -52,3 +52,6 @@ teenager = (age >=13 && age <= 19) ? true:false;
 
 ### 习题9
 等价
+
+### 习题10
+onetwo
