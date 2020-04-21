@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+// Enter a fraction: 6/12
+// In lowest form: 1/2
 int main(void){
 
 	int numerator, denominator;
