@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Enter two integers: 12 28
+// Greatest common divisor: 4
 int main(void){
 
 	int m, n;
