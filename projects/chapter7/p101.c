@@ -1,5 +1,6 @@
-/* Prints a table of squares using a for statement */
 #include <stdio.h>
+// The smallest number that causes failure is 182
+// The number of bits used to store short integer on your machine is 16
 
 int main(void){
     short int i, n;
