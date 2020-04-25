@@ -22,5 +22,19 @@ int main(void){
 
     printf("The smallest number that causes failure is %d\n", n);
 
+    int w, bits;
+
+
+    w = 1;
+    bits = 0;
+
+    while (w < n) {
+    	w *= 2;
+    	bits++;
+    }
+
+    printf("The number of bits used to store integer on your machine is %d\n", 2 * bits);
+
+
     return 0;
 }
