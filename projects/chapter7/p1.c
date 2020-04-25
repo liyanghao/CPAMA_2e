@@ -1,5 +1,7 @@
-/* Prints a table of squares using a for statement */
 #include <stdio.h>
+
+// The smallest number that causes failure is 46341
+// The number of bits used to store integer on your machine is 32
 
 int main(void){
     int i, n;
