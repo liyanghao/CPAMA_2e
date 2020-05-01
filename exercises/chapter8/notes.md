@@ -52,7 +52,7 @@ int main(void)
 
 	printf("%d,%d", fib_numbers[0], fib_numbers[1]);
 
-	for (i=2;i<=40;i++) {
+	for (i=2;i<40;i++) {
 		fib_numbers[i] = fib_numbers[i-1]+fib_numbers[i-2];
 		printf(",%d", fib_numbers[i]);
 	}
@@ -62,4 +62,50 @@ int main(void)
 	return 0;
 }
 ```
+
+### 习题6
+```
+const int segments[10][7] = {
+	{1,1,1,1,1,1,0},
+	{0,0,0,1,1,0,0},
+	{1,1,0,1,1,0,1},
+	{1,1,1,1,0,0,1},
+	{0,1,1,0,0,1,1},
+	{1,0,1,1,0,1,1},
+	{1,0,1,1,1,1,1},
+	{1,1,1,0,0,0,0},
+	{1,1,1,1,1,1,1},
+	{1,1,1,1,0,1,1}};
+
+
+
+```
+
+### 习题8
+```
+double temperature_readings[30][24];
+```
+
+### 习题9
+```
+#define DAYS 30
+#define HOURS 24
+
+
+double temperature_readings[30][24];
+int i,j;
+doubles ave_per_day,sum_month;
+
+sum_month = 0.0;
+for(i=0;i<DAYS;i++){
+	double sum_days = 0.0;
+	sum_month += sum_days/HOURS;
+	for(j=0;j<HOURS;j++){
+		sum_days+=temperature_readings[i][j];
+	}
+}
+
+ave_per_day = sum_month/DAYS;
+```
+
 
