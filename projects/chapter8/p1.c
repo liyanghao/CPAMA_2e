@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Enter a number: 939577
+// Repeated digit(s): 7 9
+
 int main(void) {
     //使用初始化式来初始化数组，且初始化式的长度小于数组的长度
     bool digit_seen[10] = {false};
